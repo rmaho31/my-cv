@@ -1,21 +1,176 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div class="hs2 alignbot"><span><b>{{name}}</b></span><br>
+  <span>{{address}}</span><br>
+  <span>513-578-3092</span><br>
+  <span><a href="{{github}}">{{github}}</a></span><br>
+  <span><a href="mailto:{{email}}">{{email}}</a></span>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class=hs2>
+  <img id=r1 src="{{image}}" alt="My boys" height="183" width="250">
+</div>
+<hr />
+<div id = "menu">
+  <app-objective></app-objective>
+  <p class=center><b>SOFTWARE DEVELOPER</b></p>
+  <p class>Driven developer seeking opportunities in Java Software/Web development,
+      technical analysis or data science. Previous experience in Biology research
+      doing data analysis on highly dimensional datasets and experience working with
+      computer hardware in the ARMY. Adapting and learning to solve complex problems
+      fuels my passion. Life-long obsession inquiring about the nature of how things work.
+      Proven success independently and as a leader/member of a team.
+  </p>
+</div>
+<section>
+  <p class=center>
+      <b>TECHNICAL SKILLS</b>
+  </p>
+  <table class=ts1>
+      <tbody>
+          <tr>
+              <td>Java</td>
+              <td>Angular</td>
+              <td>Python</td>
+              <td>R/RStudio</td>
+              <td>HTML/CSS</td>
+          </tr>
+          <tr>
+              <td>Javascript</td>
+              <td>React-native</td>
+              <td>Spring</td>
+              <td>MySQL</td>
+              <td>Bootstrap</td>
+          </tr>
+          <tr>
+              <td>Jquery</td>
+              <td>Scrum</td>
+              <td>Perl</td>
+              <td>Git/Github</td>
+              <td>VS Code</td>
+          </tr>
+          <tr>
+              <td>Eclipse</td>
+              <td>MSOfficeSuite</td>
+              <td>Spyder</td>
+              <td>Maven/Gradle</td>
+              <td>Typescript</td>
+          </tr>
+      </tbody>
+  </table>
+</section>
+<div>
+  <p class=center><b>PROFESSIONAL DEVELOPMENT</b></p>
+  <div class=hs2>Cincy Code IT at Max Technical Training</div>
+  <div class="hs2 fright">August 2018-Present</div>
+  Java/Full Stack Bootcamp<br>
+  Mason, Ohio
+  <ul>
+      <li>
+          Selected to Attend 440-hour full-stack Java software development bootcamp
+      </li>
+      <li>
+          Instruction covered the following topics
+          <ul>
+              <li>
+                  Back End: RESTful Web Services, Spring, Maven, JPA
+              </li>
+              <li>
+                  Database: MySQL, SQL, JDBC
+              </li>
+              <li>
+                  Front End: HTML/CSS, Javascript, Angular 6, Typescript, Jquery
+              </li>
+              <li>
+                  Tools: Eclipse, Postman, VS Code, Sublime Text 3, Git
+              </li>
+          </ul>
+      </li>
+      <li>
+          Capstone Project: Purchase Request System
+          <ul>
+              <li>
+                  Building a Web based (and mobile) single page intranet purchase request
+                  system to replicate a practical business software example. The project utilizes
+                  the spring framework for the backend which communicates with the MySQL database
+                  to retrieve data for the frontend components and services written in Angular 6 which
+                  render the HTML.
+              </li>
+          </ul>
+      </li>
+  </ul>
+</div>
+<div>
+  <p class=center><b>CAREER HISTORY</b></p>
+  <div class=hs2>Cincinnati Children’s Hospital</div>
+  <div class="hs2 fright">March 2016 – August 2018</div>
+  Research Assistant III
+  Cincinnati, Ohio
+  <ul>
+      <li>
+          Clustered highly dimensional single cell data using unsupervised learning and characterized the
+          differences between clustered cell types across conditions using R
+      </li>
+      <li>
+          Hosted a local webapp using R for coworkers to interact with features of the single cell datasets
+      </li>
+      <li>
+          Leveraged Scanning Electron Microscopy to verify fluorescent microscopy phenotypes
+      </li>
+      <li>
+          Managed the (PCR) genotyping team to accurately track genotypes with high fidelity
+      </li>
+  </ul>
+</div>
 
-<router-outlet></router-outlet>
+
+<div>
+  <div class=hs2>United States Army</div>
+  <div class="hs2 fright">February 2008 - May 2012</div>
+  Sergeant E-5 | Computer/Detection Systems Repairer
+  Fort Campbell, Kentucky
+  <ul>
+      <li>
+          Trained in maintenance and repair of hardware for computer and detection systems
+      </li>
+      <li>
+          Led a crew of four soldiers that constructed a building and saved the Army $250,000 in Atan
+      </li>
+      <li>
+          Accounted for sensitive materials worth $850,000 with no losses in two years
+      </li>
+      <li>
+          Responsible for training and personnel records for company of 94 soldiers
+      </li>
+  </ul>
+
+</div>
+<div>
+  <p class=center><b>EDUCATION</b></p>
+  <div class=hs2>University of Cincinnati</div>
+  <div class="hs2 fright">September 2012 - April 2016</div>
+  Cellular/Molecular Biology
+  3.48/4.0 GPA
+  <ul>
+      <li>
+          Graduated with Honors
+      </li>
+      <li>
+          Completed a project that annotated the Citrus Psyllid genome
+      </li>
+  </ul>
+</div>
+<div>
+  <p class=center><b>ACCOMPLISHMENTS</b></p>
+  <ul>
+      <li>
+          Awarded Best Scientific Picture 2017 Developmental Biology Retreat
+      </li>
+      <li>
+          Distinguished Honor Grad Army Advanced Individual Training
+      </li>
+      <li>
+          Army Achievement Medal x2
+      </li>
+      <li>
+          Afghanistan Campaign Medal
+      </li>
+  </ul>
+</div>

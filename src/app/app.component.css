@@ -1,0 +1,52 @@
+body {
+    background-color: #6c5ce7;
+    color: white;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+    font-size: 4;
+}
+
+#menu p{
+    color: navy;
+    font-size: 4;
+}
+.center {
+    text-align:center;
+}
+.hs2 {
+    width: 49%;
+    display: inline-block;
+}
+#r1 {
+    float: right;
+}
+.divtable {
+    width: 19%;
+    display: inline-block;
+}
+.alignbot {
+    vertical-align: bottom;
+}
+.fright {
+    text-align: right;
+}
+.tab{
+    margin-left: 40px;
+}
+.dtab{
+    margin-left: 80px;
+}
+.ts1 {
+    width: 100%;
+    text-align: center;
+}
+td {
+    width: 20%;
+}
+th, tr, td, table {
+    border: 1px solid silver;
+    border-collapse: collapse;
+}
